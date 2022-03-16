@@ -1,6 +1,14 @@
+body {
+	background-image: url(praia.jpg);
+	background-size: 100%;
+	background-position:center ;
+
+}
 #content section ul li a{
+	font-size: 19px;
 	color: #1a0dab;
 	text-decoration: none;
+	list-style: none;
 	
 }
 
@@ -12,15 +20,15 @@
 }
 
 #wrap{
-	background-image: ;
 	width: 960px;
 	margin: auto;
 	font-family: helvetica, sans-serif;
-	text-decoration: none;
+	
 }
 header h1{
 	padding: 10px 20px;
-	background: lightgrey;
+	font-family: "roboto mono",monospace;
+
 }
 
 #content section{
@@ -34,13 +42,9 @@ header h1{
 }
 footer{
 	clear: both;
-	text-decoration: underline;
+	text-decoration: none;
 }
-#content section ul li a{
-	font-size: 19px;
-	
-	
-}
+
 label, input[type="submit"], input[type="text"], textarea{
 	display: block;
 }
@@ -49,10 +53,16 @@ textarea{
 	height: 80px;
 }
 h2 , p {
-	padding: 0px 20px;
+	font-size: 20px;
+	font-family: "roboto mono",monospace;
+
 }
 #content section ul li {
 	list-style: none;
 
+
 	
+}
+ label, input{
+	font-size: 20px;
 }
